@@ -26,11 +26,11 @@
 
             function getHumanChoice() {
                 let msg = prompt("rock, paper or scissors");
-                if (msg.toLowerCase() == "rock") {
+                if (msg.toLowerCase() === "rock") {
                     return rock;
-                } else if (msg.toLowerCase() == "paper") {
+                } else if (msg.toLowerCase() === "paper") {
                     return paper;
-                } else if (msg.toLowerCase() == "scissors") {
+                } else if (msg.toLowerCase() === "scissors") {
                     return scissors;
                 } else {
                     alert("Invalid! Choose rock, paper or scissors!");
