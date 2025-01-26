@@ -27,18 +27,21 @@ body {
     height: 150px;
     width: 200px;
     border: 4px solid purple;
-    background-color: #d199ec;
     color: white;
     font-size: 2em;
     cursor: pointer;
 }
 
-.btn1 {
+.main-result {
+    font-size: 2em;
+}
+
+.rock {
     background-color: #413938;
 }
-.btn2 {
+.paper {
     background-color: #6c6460;
 }
-.btn3 {
+.scissors {
     background-color: #494642;
 }
