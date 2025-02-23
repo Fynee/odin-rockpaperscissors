@@ -1,5 +1,3 @@
-(function() {
-
     const rock = "rock";
     const paper = "paper";
     const scissors = "scissors";
@@ -11,8 +9,6 @@
     const resultEl = document.querySelector(".main-result");
 
 
-
-    function playGame() {
         let humanScore = 0;
         let computerScore = 0;
 
@@ -66,9 +62,3 @@
         rockEl.addEventListener("click", playRound)
         paperEl.addEventListener("click", playRound)
         scissorEl.addEventListener("click", playRound)
-    }
-    playGame()
-
-})();
-
-
